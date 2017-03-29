@@ -1,0 +1,194 @@
+* {
+ border: 0; /* убираем рамки */
+ outline: 0; /* убираем контуры */
+ margin: 0; /* убираем поля */
+ padding: 0; /* убираем отступы */
+}
+
+/*@viewport{
+width:device-width;
+}*/
+
+body{
+width:auto;
+margin:0 0;
+background-color:#000000;
+font:bold 15px Tahoma, sans-serif;
+color: #FFFFFF;
+}
+
+/*#wrapper{
+width:1760px;
+margin:0 auto;
+}*/
+
+/*p{
+font:16px bold "Comic Sans MS", cursive;
+line-height:15px;
+}*/
+
+h2{
+text-align:center;
+}
+
+/*#wrapper{						
+width:1700px;
+margin:0 auto;
+}*/
+
+header{						
+width:624px;
+height:304px;
+background-image:url(../img/logo.png);
+margin:0 auto;
+}
+
+#history{						
+margin:0 auto;
+width:600px;
+font:bold 16px "Comic Sans MS", cursive;
+margin-bottom:50px;
+}
+
+.history{					
+line-height:32px;
+text-indent:80px;
+font-size:15px;
+}
+
+nav{						
+padding:0 0 50px 0;
+}
+
+#stadio{						
+width:1300px;
+height:300px;
+background-image:url(../img/Berlin_Olympic_Stadium.jpg);
+margin:0 auto;
+}
+
+#content_a{						
+width:600px;
+height:450px;
+margin:0 auto 50px auto;
+}
+
+#structure{						
+margin-bottom:96px;
+}
+
+article{							
+width:300px;
+position:absolute;
+top:50px;
+left:50px;
+}
+
+.season{						
+width:600px;
+}
+
+.table{							
+width:600px;
+}
+
+td{					
+border:4px solid #0A549C;
+}
+
+table{
+width:624px;
+height:50px;
+margin:0 auto 50px auto;
+text-align:center;
+border-collapse:collapse;
+font:13px Verdana;
+}
+
+a{
+color: #FFFFFF;
+text-decoration:none;
+}
+
+.table_a td{							
+border:0;
+width:600px;
+}
+
+.hertha{						
+background:#0080FF;
+}
+
+
+#main{					
+position:fixed;
+top:144px;
+left:0;
+}
+
+#season{				
+margin-bottom:100px;
+}
+
+.structure{				
+width:600px;
+}
+
+.result{			  /*   #519329, #0080FF   #FF0000 */
+color:#519329;
+}
+
+.german_cup{          
+width:600px;
+margin-bottom:50px;
+}
+
+.german_cup2{          
+width:600px;
+margin-bottom:50px;
+}
+
+.change{					
+font:15px Verdana;
+}
+
+.logo_hertha{				
+float:right;
+margin:0 150px 0 100px;
+}
+
+/*.champion_pic{
+background-image:url(../img/3bedbf.jpg);
+width:300px;
+height:221px;
+}
+
+.champion{
+background-image:url(../img/flag-germanii.jpg);
+}
+
+.bundesliga_pic{
+background-image:url(../img/ger_cup-i87q5.jpg);
+width:300px;
+height:221px;
+}
+
+.bundesliga{
+background-image:url(../img/bundesliga.png);
+}
+
+.uefa_pic{
+background-image:url(../img/z4D6oZS1o3w.jpg);
+width:300px;
+height:221px;
+}
+
+.uefa{
+background-image:url(../img/uefa.jpg);
+}*/
+
+footer{
+width:100px;
+padding-top:160px;
+margin:0 auto;
+}

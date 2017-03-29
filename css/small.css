@@ -1,0 +1,182 @@
+* {
+ border: 0; /* убираем рамки */
+ outline: 0; /* убираем контуры */
+ margin: 0; /* убираем поля */
+ padding: 0; /* убираем отступы */
+}
+
+/*@viewport{
+width:device-width;
+}*/
+
+body{
+margin:0 0;
+width:auto;
+background-color:#000000;
+font:bold 10px Tahoma, sans-serif;
+}
+
+header{						
+width:318px;
+height:300px;
+background-image:url(../img/logo_small.png);
+margin:0 auto;
+}
+
+
+/*#wrapper{
+width:auto;
+margin:0 auto;
+}
+
+#wrapper1{						
+width:auto;
+margin:0 auto;
+}*/
+
+nav{					
+padding:0 0 20px 0;
+width:318px;
+}
+
+article{							
+display:none;
+}
+
+#history{						
+margin:0 auto;
+width:300px;
+font:bold 16px "Comic Sans MS", cursive;
+margin-bottom:50px;
+}
+
+.history{					
+line-height:16px;
+text-indent:40px;
+font-size:16px;
+}
+
+#content_a{						
+width:300px;
+height:450px;
+margin:0 auto 50px auto;
+}
+
+#stadio{						
+display:none;
+}
+
+h2{
+text-align:center;
+}
+
+/*p{
+font:16px bold "Comic Sans MS", cursive;
+line-height:15px;
+}*/
+
+.season{						
+width:300px;
+}
+
+.table{							
+width:300px;
+}
+
+td{					
+border:2px solid #0A549C;
+}
+
+table{
+width:318px;
+height:24px;
+margin:0 auto;
+text-align:center;
+border-collapse:collapse;
+font:1em Verdana;
+}
+
+a{
+color: #FFFFFF;
+text-decoration:none;
+}
+
+.table_a td{							
+border:0;
+width:300px;
+}
+
+.hertha{						
+background:#0080FF;
+}
+
+
+#main{					
+display:none;
+}
+
+#season{				
+margin-bottom:50px;
+}
+
+.structure{				
+width:350px;
+}
+
+.result{			  /*   #519329, #0080FF   #FF0000 */
+color:#FF0000;
+}
+
+.german_cup{          
+width:320px;
+margin-bottom:24px;
+}
+
+.german_cup2{          
+width:300px;
+margin-bottom:50px;
+}
+
+.change{					
+font:8px Verdana;
+}
+
+.logo_hertha{				
+display:none;
+}
+
+.champion_pic{
+background-image:url(../img/3bedbf_small.jpg);
+width:150px;
+height:110px;
+}
+
+.champion{
+background-image:url(../img/flag-germanii_small.jpg);
+}
+
+.bundesliga_pic{
+background-image:url(../img/ger_cup-i87q5_small.jpg);
+width:150px;
+height:110px;
+}
+
+.bundesliga{
+background-image:url(../img/Bundesliga_small.png);
+}
+
+.uefa_pic{
+background-image:url(../img/z4D6oZS1o3w_small.jpg);
+width:150px;
+height:110px;
+}
+
+.uefa{
+background-image:url(../img/uefa_small.jpg);
+}
+
+footer{
+width:40px;
+padding-top:160px;
+margin:0 auto;
+}

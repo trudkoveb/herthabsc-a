@@ -1,0 +1,290 @@
+* {
+ border: 0; /* убираем рамки */
+ outline: 0; /* убираем контуры */
+ margin: 0; /* убираем поля */
+ padding: 0; /* убираем отступы */
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Lobster', cursive;
+    color:#477EAA;
+    height: 100%;
+}
+
+#wrapper{
+    width:800px;
+    margin:0 auto;
+    border-left:2px solid #477EAA;
+    border-right:2px solid #477EAA;
+    min-height: 100%;
+}
+
+#header{
+    width:624px;
+    height:300px;
+    margin:0 auto;
+}
+
+
+#nav{
+    width:614px;
+    margin:0 auto;
+    margin-bottom:20px;
+    text-align:center;
+    border:5px solid #477EAA;
+}
+
+#content{
+    width:800px;
+    padding-bottom:100px;
+}
+
+#last_match{
+    margin-bottom:40px;
+    padding-left:20px;
+    float:left;
+    font-size:1.1em;
+}
+
+#next_match{
+    margin-bottom:40px;
+    padding-right:20px;
+    float:right;
+    font-size:1.1em;
+}
+
+#news{
+    clear:both;
+    width:600px;
+    margin:30px auto;
+}
+
+#news .meta{
+    margin-top: 20px;
+}
+
+#news .meta span{
+    margin-right: 10px;
+}
+
+#news .meta a{
+    text-decoration: underline;
+}
+
+#all_cups{
+    width:300px;
+    margin:0 auto;
+}
+
+#footer{
+    height:40px;
+    margin-top: -45px;
+    color:#000;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    color:#477EAA;
+    text-decoration:none;
+}
+
+td{
+    text-align:center;
+    border:2px solid #477EAA;
+}
+
+th{
+    text-align:center;
+    border:2px solid #477EAA;
+}
+
+li{
+    display:inline;
+    padding:10px;
+    font-size:1.7em;
+}
+
+h2{
+    text-align:center;
+    padding-bottom:30px;
+}
+
+
+.pic_for_news{
+    float:left;
+    padding:10px 10px;
+}
+
+p.news{
+    font-size:1.2em;
+    text-indent:4em;
+}
+
+.table_bundesliga{
+    width:500px;
+    border:2px solid #477EAA;
+    border-collapse:collapse;
+    margin:0 auto;
+    font-size:1.3em;
+}
+
+.hertha_in_table_bundesliga{
+    background-color:#004490;
+}
+
+.structure_team{
+    width:670px;
+    border:2px solid #477EAA;
+    border-collapse:collapse;
+    margin:0 auto;
+    font-size:1.1em;
+    letter-spacing:1px;
+}
+
+.season{
+    width:450px;
+    border:2px solid #477EAA;
+    border-collapse:collapse;
+    margin:0 auto 30px auto;
+    font-size:1.1em;
+    letter-spacing:1px;
+}
+
+.german_cup{
+    width:500px;
+    border:2px solid #477EAA;
+    border-collapse:collapse;
+    margin:0 auto 30px auto;
+    font-size:1.1em;
+    letter-spacing:1px;
+}
+
+.tShirt{
+    padding:20px 45px;
+}
+
+.history_info{
+    padding-left:30px;
+    font-size:1.1em;
+}
+
+.official_site:hover{
+    text-decoration:underline;
+}
+
+.history{
+    font-size:1.25em;
+    padding:5px 30px;
+    text-indent:4em;
+}
+
+.history:first-letter{
+    font-size:2em;
+    text-indent:4em;
+}
+
+.history_pic1{
+    float:left;
+    padding:30px 30px;
+}
+
+.history_pic2{
+    float:right;
+    padding:30px 30px;
+}
+
+.history_pic3{
+    float:left;
+    padding:30px 30px;
+}
+
+.history_pic4{
+    float:right;
+    padding:30px 30px;
+}
+
+.history_pic5{
+    padding:30px 0;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.achievments{
+    padding-bottom:20px;
+    text-align:center;
+}
+
+.achievments_bottom{
+    text-align:center;
+}
+
+/* Comments*/
+.commentlist{
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+.commentlist li{
+    font-size: inherit;
+}
+
+.commentlist ul.children .comment-body{
+    padding-left: 40px;
+}
+
+.commentlist img{
+    float: left;
+    margin: 0 20px;
+}
+
+.comment-body{
+    border-top: 1px solid #477EAA;
+    border-bottom: 1px solid #477EAA;
+    padding: 20px 0;
+}
+
+cite.fn{
+    font-size: 20px;
+}
+
+.reply a{
+    text-align: right;
+}
+
+#respond{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#respond .form{
+    border: 1px solid #477EAA;
+    padding: 30px;
+}
+
+#respond .form input, #respond .form textarea{
+    border: 1px solid #477EAA;
+    margin: 10px 0;
+    width: 70%;
+}
+
+#respond .form textarea{
+    resize: none;
+}
+
+#respond .form label{
+    display: block;
+}
+
+#respond #submit{
+    height: 50px;
+    background: #477EAA;
+    width: 40%;
+}
